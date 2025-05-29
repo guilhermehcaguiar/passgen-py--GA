@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 import string
 print("---GERADOR DE SENHAS 2.0---")
@@ -26,3 +27,15 @@ def criar_senha(t, lm, ln, e,n):
     return "".join(sen)
 senha = criar_senha(t, lm, ln, e, n)
 print("Senha gerada com base nos parametros solicitados: ", senha)
+=======
+import random
+import string
+print("---GERADOR DE SENHAS 1.0---")
+t = int(input("Defina a quantidade caracteres:"))
+def criar_senha(t):
+    c = string.ascii_letters + string.digits + string.punctuation
+    s = "".join(random.choice(c) for _ in range (t))
+    return s
+sen = criar_senha(t)
+print("Senha gerada com {} dígitos:".format(t), sen)
+>>>>>>> a110ea64cdb396ae6f8de7f6b630d093a4f77b08
