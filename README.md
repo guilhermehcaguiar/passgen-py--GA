@@ -1,4 +1,4 @@
-# PASSWORD GENERATOR (Python)
+# PASSWORD GENERATOR PYTHON (GA)
 ---
   ## Versão 1.0:
     . Permite ao usuário escolher a quantidade de caracteres da senha e a gera com base nessa escolha.
