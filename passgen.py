@@ -7,4 +7,4 @@ def criar_senha(t):
     s = "".join(random.choice(c) for _ in range (t))
     return s
 sen = criar_senha(t)
-print("Senha:", sen)
+print("Senha gerada com {} dígitos:".format(t), sen)
