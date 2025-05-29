@@ -1,7 +1,7 @@
 # PASSWORD GENERATOR (Python)
 ---
   ## Versão 1.0:
-    . Permite ao usuário selecionar a quantidade total de caracteres da senha e a gera com base nessa escolha.
+    . Permite ao usuário escolher a quantidade de cadracteres da senha e a gera com base nessa escolha.
     . Ordem e caracteres 100% aleatórios.
 ---
   ## Versão 2.0:
