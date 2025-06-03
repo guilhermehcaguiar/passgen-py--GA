@@ -12,8 +12,8 @@ if tr > t:
 def criar_senha(t, lm, ln, e,n):
     m = string.ascii_uppercase
     l = string.ascii_lowercase
-    es = string.punctuation
-    nu = "!@#$%&*"
+    es = "!@#$%&*"
+    nu = string.digits
     sen = []
     sen += random.choices(m, k=lm)
     sen += random.choices(l, k=ln)
